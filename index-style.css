@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+}
+.header-text {
+    padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+    color:blueviolet;
+    text-align: center;
+    font-size: medium;
+    
+}
+.topnav a {
+   
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-left: 40px;
+    text-decoration:none;
+    font-size: 17px;
+    
+  }
+  
+  .topnav a:hover {
+    background-color: blueviolet;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color:blueviolet;
+    color: white;
+  }
+  
+  .topnav a:focus {
+    background-color:blueviolet;
+    color: white;
+  }
