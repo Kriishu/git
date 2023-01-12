@@ -2,22 +2,31 @@
 <html lang="en">
 
 <head>
+    <link rel="stylesheet" href="stylesheet.css">
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About page</title>
+    <title>Git_Project</title>
 </head>
-<body style="background-color: whitesmoke;">
-    <header style="background-image: url('/image/Header_Image.jpg');">
-        <div style="text-align: center; color: blueviolet;">
-            <h1>Welcome to the About page!</h1>
+<body>
+    <header>
+        <div class = "header">
+            <h1>Welcome to the about page!</h1>
         </div>
     </header>
     <navbar>
-        <a href="index-html.html">Home</a>
-        <a href="#about">About</a>
-        <a href="contact-page.html">Contacts</a>
+        <div class = "topnav">
+            <p>Useful Links:</p>
+            <br>
+            <div class = "navbuttons">
+            <a href="index-html.html">Home</a>
+            <a class ="active"href="about-page.html">About</a>
+            <a href="contact-page.html">Contacts</a>
+        </div>
+    </div>
     </navbar>
     <main id="about">
+        <div class="sectiontab">
         <section style="color:blueviolet">
             Hello! My  Name is Kristaps Morics!
              Currently im in a Internship Program for Accenture,
@@ -25,9 +34,10 @@
                Some of my hobbies are Video Games, Watching movies, Going out with my friends, I've done a bit of programming..
             mainly in Java and Python programming languages. I've tried to learn different things such as web development, Game development. etc.
         I don't have much programming knowledge, but I have Google at my hands and idea about how programming and computers work. :D
+    </div>
         </section>
     </main>
-    <footer style="text-align: center; color: blueviolet;">
+    <footer>
         <a href="https://www.accenture.com/lv-en">Accenture page</a>  <br>
         <a href="https://www.google.com/">Most Used Site for Programmers</a>
     </footer>

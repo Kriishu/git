@@ -1,0 +1,100 @@
+/*
+Styled the Header Tab
+*/
+.header {
+    text-align: center; 
+    color: blueviolet;
+    background-image: url('image/Header_Image.jpg');
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    
+}
+/*
+Changed Font for entire body tag
+*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+Styled the Navigation Bar 
+*/
+
+.topnav {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    overflow: hidden;
+    text-align: center;
+    padding-bottom: 20px;
+    font-weight: bolder;
+    color: blueviolet;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: center;
+    color: blueviolet;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: palevioletred;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: purple;
+    color: white;
+  }
+
+/*
+Styled the Side-Bar
+*/
+.sidebar {
+    text-decoration: underline;
+    margin-right: 30px;
+    font-weight: bolder;
+    float: right; 
+    color:blueviolet;
+    
+}
+/*
+Styled the article tab
+*/
+.articletab{
+    color: blueviolet;
+    font-weight: bolder;
+    
+}
+
+
+/*
+Styled the section tab
+*/
+
+.sectiontab{
+text-align: center;
+font-weight: bolder;
+color: blueviolet;
+background: rgb(238,174,202);
+background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+/*
+Styled the Footer
+*/
+
+footer {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+        background: rgb(238,174,202);
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    }
+
