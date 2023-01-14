@@ -98,7 +98,7 @@ main {
 Styled the Side-Bar
 */
 aside {
-  margin-right: 70%;
+  margin-right: 60%;
   border: 2px solid blueviolet;
   border-radius: 5px;
   
@@ -146,7 +146,9 @@ li {
   margin-left: 3em;
   }
 
-
+/*
+Styled the About Page
+*/
 
 .column {
   margin: auto;
@@ -162,6 +164,19 @@ li {
 
 .container {
   padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
 }
 
 /*
