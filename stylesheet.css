@@ -1,109 +1,167 @@
 /*
-Styled the Header Tab
+Styles the whole html Tab
 */
-.header {
-    text-align: center;
-    color: blueviolet;
-    background-image: url('image/Header_Image.jpg');
-    font-weight: bolder;
-    padding-top: 25px;
-    padding-bottom: 25px;
-    font-size: 25px;
+html {
+  height: 100%;
+  box-sizing: border-box;
 }
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
 /*
 Change's entire body tag
 */
 body {
-    font-family: Arial, Helvetica, sans-serif;
-    background: rgb(238,174,202);
-    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
-    display: flex;
-    flex-direction: column;
-    min-height: calc(100vh - 40px);
-    
+  font-family: Arial, Helvetica, sans-serif;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  color: blueviolet;
+  line-height: 30px
+}
+
+/*
+Styled the Header Tab
+*/
+.header {
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  text-align: center;
+  background-image: url("image/Header_Image.jpg");
+  padding-top: 25px;
+  padding-bottom: 25px;
+  font-size: 25px;
 }
 /*
 Styled the Navigation Bar 
 */
 
 .topnav {
-    
-    overflow: hidden;
-    text-align: center;
-    padding-bottom: 20px;
-    font-weight: bolder;
-    color: blueviolet;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: center;
-    color: blueviolet;
-    text-align: center;
-    padding: 16px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: palevioletred;
-    color: black;
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: purple;
-    color: white;
-  }
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: blueviolet;
+}
 
-  .topnav p {
-    text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
-  }
+/* Style the links inside the navigation bar */
+.topnav a {
 
-  
+  float: center;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+  font-size: 15px;
+  border-color: aliceblue;
+  border-width: 5px;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: palevioletred;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: purple;
+  color: white;
+}
+
+.topnav p {
+  position: relative;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 20px;
+
+}
+
+/*
+Added Flex to Main.
+*/
+main {
+  flex: 1;
+}
+
 /*
 Styled the Side-Bar
 */
-aside{
-  margin-right: 30px;
-  float: right; 
-  color:blueviolet;
+aside {
+  margin-right: 70%;
+  border: 2px solid blueviolet;
+  border-radius: 5px;
   
 }
 .sidebar h1 {
-  font-weight: bolder;
   text-decoration: none;
   font-size: 30px;
 }
-.sidebar p{
-  font-weight: bolder;
+.sidebar p {
   text-decoration: underline;
 }
-
-
-
-
-/*
-Styled the article tab
-*/
-.articletab{
-    color: blueviolet;
-    font-weight: bolder;
-    
-}
-
 
 /*
 Styled the section tab
 */
 
-.sectiontab{
-text-align: center;
-font-weight: bolder;
-color: blueviolet;
+.sectiontab {
+  text-align: center;
+  display: block;
+}
+.gif {
+  margin:auto;
+  padding-top: 15px;
+}
+
+/*
+Styled the article tab
+*/
+.articletab {
+  text-align: center;
+}
+ul {
+  
+  font-size: medium;
+  list-style: square outside none;
+  display: list-item;
+  margin-left: 2em;
+  
+  
+}
+
+li {
+  list-style: disc outside none;
+  display: list-item;
+  margin-left: 3em;
+  }
+
+
+
+.column {
+  margin: auto;
+  width: 20%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin: 8px;
+}
+
+.container {
+  padding: 0 16px;
 }
 
 /*
@@ -112,7 +170,5 @@ Styled the Footer
 
 footer {
   padding-top: 30px;
-    text-align: center;
-    font-weight: bolder;
+  text-align: center;
 }
-
